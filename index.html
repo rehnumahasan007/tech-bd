@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech-BD</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+
+    <!-- Font-Awesome -->
+    <script src="https://kit.fontawesome.com/30bc349e03.js" crossorigin="anonymous"></script>
+    <!-- ** Custom Css  -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter&family=Kanit&family=Lato:wght@400;700&family=Noto+Sans&family=Yellowtail&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <section class="container">
+            <!-- ** Navbar -->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand fw-semibold fs-2" href="#home"><i class="fa-solid fa-book-open-reader"></i>
+                        Tech-BD.com</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item m-3">
+                                <a class="nav-link" aria-current="page" href="#home" id="home">Home</a>
+                            </li>
+                            <li class="nav-item m-3">
+                                <a class="nav-link" href="#courses">Courses</a>
+                            </li>
+                            <li class="nav-item m-3">
+                                <a class="nav-link" href="#explore">Explore</a>
+                            </li>
+                            <li class="nav-item m-3">
+                                <a class="nav-link" href="#success">Success</a>
+                            </li>
+                            <li class="nav-item m-3">
+                                <a class="nav-link" href="#faq">FAQ</a>
+                            </li>
+                            <li class="nav-item m-3">
+                                <a class="nav-link" href="#register">Register</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-primary btn-color" type="submit">Register</button>
+                        </form>
+
+                    </div>
+                </div>
+            </nav>
+            <!-- * Navbar -->
+        </section>
+
+        <section class="container">
+            <!-- ** Carosel -->
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./images/cover/cover-3.png" class="d-block w-100 img-fluid" alt="..." />
+                        <div class="carousel-caption">
+                            <h1 class="fw-bolder fsc">Get Started Digital Learning</h1>
+                            <p>
+                                The number one benefit of information technology is that it empowers people to do what
+                                they want to do.
+                            </p>
+                            <button type="button" class="btn btn-primary bg-color px-lg-4 py-lg-2 fs-5">
+                                Get Started
+                            </button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/cover/cover-2.jpg" class="d-block w-100 img-fluid" alt="..." />
+                        <div class="carousel-caption">
+                            <h1 class="fw-bolder fsc">Get Started Digital Learning</h1>
+                            <p>
+                                The number one benefit of information technology is that it empowers people to do what
+                                they want to do.
+                            </p>
+                            <button type="button" class="btn btn-primary bg-color px-lg-4 py-lg-2 fs-5">
+                                Get Started
+                            </button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/cover/cover-1.jpg" class="d-block w-100 img-fluid" alt="..." />
+                        <div class="carousel-caption">
+                            <h1 class="fw-bolder fsc">Get Started Digital Learning</h1>
+                            <p>
+                                The number one benefit of information technology is that it empowers people to do what
+                                they want to do.
+                            </p>
+                            <button type="button" class="btn btn-primary bg-color px-lg-4 py-lg-2 fs-5">
+                                Get Started
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Carosel control -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- ** Carosel -->
+        </section>
+    </header>
+
+    <!-- Main section -->
+    <main>
+        <!-- Title header Section -->
+        <section class="container my-5">
+            <div class="text-center" id="courses">
+                <h1 class="fw-bolder">Discover Our Popular Courses</h1>
+                <p>
+                    With the rise of digital in all areas of our lives, we are seeing an increase in the use of digital
+                    services in learning.
+                </p>
+            </div>
+        </section>
+
+        <!-- Card of Courses -->
+        <section class="container">
+            <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 g-3">
+                <div class="col">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4 col-12">
+                                <img src="./images/course/course-1.png" class="img-fluid rounded-0 h-100 card-img-top"
+                                    alt="..." />
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body my-4">
+                                    <h5 class="card-title fw-bold">Fundamental Of UI/UX Design</h5>
+                                    <p class="card-text">
+                                        UX/UI is the user experience & user-interface.You'll learn
+                                        most of things this course.
+                                    </p>
+                                    <p class="card-text">
+                                    <p class="fw-semibold fs-5 price-color">Price : 20$</p>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4 col-12">
+                                <img src="./images/course/course-2.png"
+                                    class="img-fluid rounded-start h-100 card-img-top" alt="..." />
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body my-4">
+                                    <h5 class="card-title fw-bold">Javascript Basic to advanced</h5>
+                                    <p class="card-text">
+                                        Introduction of JS basic,libraries and frameworks.ES6,React jS and node JS
+                                    </p>
+                                    <p class="card-text">
+                                    <p class="price-color fw-semibold fs-5">Price : 40$</p>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4 col-12">
+                                <img src="./images/course/course-3.png"
+                                    class="img-fluid rounded-start h-100  card-img-top" alt="..." />
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body my-4">
+                                    <h5 class="card-title fw-bold">Fullstack Web Development</h5>
+                                    <p class="card-text">
+                                        Web fundamentals,data structures and programming.
+                                    </p>
+                                    <p class="card-text">
+                                    <p class="price-color fw-semibold fs-5">Price : 50$</p>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4 col-12">
+                                <img src="./images/course/course-4.png"
+                                    class="img-fluid rounded-start h-100 card-img-top" alt="..." />
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body my-4">
+                                    <h5 class="card-title fw-bold">Digital Marketing</h5>
+                                    <p class="card-text">
+                                        SEO,content creation and digital marketing.
+                                        Additional care if needed.
+                                    </p>
+                                    <p class="card-text">
+                                    <p class="price-color fw-semibold fs-5">Price : 30$</p>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4 col-12">
+                                <img src="./images/course/course-5.png"
+                                    class="img-fluid rounded-start h-100 card-img-top" alt="..." />
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body my-4">
+                                    <h5 class="card-title fw-bold">Photography Basic Rules</h5>
+                                    <p class="card-text">
+                                        Basic photography trainning with additional support for weddings and events.
+                                    </p>
+                                    <p class="card-text">
+                                    <p class="price-color fw-semibold fs-5">Price : 15$</p>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4 col-12">
+                                <img src="./images/course/course-6.png"
+                                    class="img-fluid rounded-start h-100 card-img-top" alt="..." />
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body my-4">
+                                    <h5 class="card-title fw-bold">Motion Graphics</h5>
+                                    <p class="card-text">
+                                        Motion Graphics and transitions. Support for new technologies if needed.
+                                    </p>
+                                    <p class="card-text">
+                                    <p class="price-color fw-semibold fs-5">Price : 60$</p>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Card of Courses -->
+
+
+        <!-- See More Courses -->
+        <section class="container my-5">
+            <div class="d-flex justify-content-center">
+                <button type="button" class="btn btn-primary bg-color px-5">See More Courses</button>
+            </div>
+        </section>
+        <!-- Explore Institute Start-->
+        <section class="container" id="explore">
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-lg-5 col-md-5 col-12">
+                        <img src="./images/working.jpg"
+                            class="h-100 img-fluid img-lg-fluid img-md-fluid rounded-start card-img-top " alt="...">
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-12 explore-background">
+                        <div class="card-body grid-aligning"><br><br><br><br><br><br>
+                            <h1 class="card-title fw-bolder">Explore Our Institute</h1>
+                            <p class="card-text">Information technology (IT) involves the study and application of
+                                computers and any type of telecommunications that store, retrieve, study, transmit,
+                                manipulate data and send information.We offer variety of courses with good pricing and
+                                great support, Join
+                                us and fulfil your dream</p>
+                            <p class="card-text">Information technology helps to build and grow the commerce and
+                                business sector and generate maximum possible output. The time taken by different
+                                sectors to generate business is now minimised with an advancement in Information
+                                technology. It provides electronic security, storage, and efficient communication.You
+                                can use our free trail and explore later. In few courses we offer
+                                <strong> Money Back </strong>guarantee.
+                            </p>
+                            <div class="d-flex gap-3 my-1 fw-bold">
+                                <div>
+                                    <h2>32.5K+</h2>
+                                    <small>Online Course</small>
+                                </div>
+                                <div>
+                                    <h2>600K+</h2>
+                                    <small>Experts</small>
+                                </div>
+                                <div>
+                                    <h2>1K+</h2>
+                                    <small>Ratings & Reviews</small>
+                                </div>
+                            </div>
+                            <br>
+                            <button type="button" class="btn bg-color text-black fw-bold btn-lg">
+                                Read More...
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Explore Institute End-->
+        <br>
+        <br>
+        <!-- ready-to-join-section start -->
+        <section>
+            <div class="container new-section">
+                <div class="card">
+                    <div class="card-body p-5 bg-primary rounded">
+                        <div class="row align-items-center text-lg-start text-md-center text-sm-center g-md-4 g-sm-4">
+                            <div class="col-lg-10 text-light">
+                                <h1 class="card-title fw-bold">Ready to join?</h1>
+                                <p class="card-text">It is a long established fact that a reader will be distracted by
+                                    the<br> readable content of a page when looking at its layout.</p>
+                            </div>
+                            <div class="col-lg-2">
+                                <!-- modal-popap-button -->
+                                <button type="button" class="btn btn-light fw-bold" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">Registration</button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Register Now</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <form>
+                                                    <div class="mb-3">
+                                                        <label for="exampleInputEmail1" class="form-label">Email
+                                                            address</label>
+                                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                                            aria-describedby="emailHelp">
+
+                                                        <div class="mb-3">
+                                                            <label for="exampleInputPassword1"
+                                                                class="form-label">Password</label>
+                                                            <input type="password" class="form-control"
+                                                                id="exampleInputPassword1">
+                                                        </div>
+                                                        <div class="mb-3 form-check">
+                                                            <input type="checkbox" class="form-check-input"
+                                                                id="exampleCheck1">
+                                                            <label class="form-check-label" for="exampleCheck1">Valid
+                                                                information.</label>
+                                                        </div>
+                                                        <button type="submit" class="btn btn-success">Submit</button>
+                                                </form>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ready-to-join-modal-section end -->
+        <!-- Ready to join -->
+        <section class="container my-5" id="success">
+            <h1 class="fw-bolder">Meet Our Successful Students</h1>
+            <p>Below you'll find our students who are working on the lead tech companies</p>
+        </section>
+        <!-- Meet Successfull Students -->
+        <section class="container my-5">
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="card">
+                        <img src="./images/student/student-1.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <p class="fw-bolder fs-5">Munim Chowdhury</p>
+                            <small class="text-muted">
+                                Web Developer
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="card">
+                        <img src="./images/student/student-2.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <p class="fw-bolder fs-5">Syeda Ruma</p>
+                            <small class="text-muted">
+                                DNA Technologist
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="card">
+                        <img src="./images/student/student-3.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <p class="fw-bolder fs-5">Arjun Dhar</p>
+                            <small class="text-muted">
+                                Web Designer
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="card">
+                        <img src="./images/student/student-4.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <p class="fw-bolder fs-5">Meherunnesa</p>
+                            <small class="text-muted">
+                                Digital Marketing
+                            </small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Meet Successfull Students -->
+        <!-- ** View all Button -->
+        <section class="container my-5">
+            <div class="d-flex justify-content-center">
+                <button type="button" class="btn btn-primary bg-color px-5">View all</button>
+            </div>
+        </section>
+        <!-- ** View all Button -->
+        <!-- Title header Section -->
+        <section class="container my-5">
+            <div class="text-center">
+                <h1 class="fw-bolder">Student Feedback</h1>
+                <p>
+                    Below you'll get some fantastic reviews from our students. They also told about our future planing.
+                </p>
+            </div>
+        </section>
+        <!-- Title header Section -->
+        <!-- Some Students Feedback -->
+        <section class="container">
+            <div class="row g-3">
+                <div class="col-lg-6 col-md-12 col-12" style="position:relative;">
+                    <div class="card p-4">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <img src="./images/comma.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="text-golden">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                            </div>
+                            <p class="card-text my-2">Excellent format and path from the beginning to the end. I think
+                                it is the best one I have ever audited in
+                                Coursera. Objective, useful, clear, concise... It helped me a lot in my research on
+                                educational technologies. Amazing..</p>
+                            <div class="d-flex">
+                                <img src="./images/student/student-5.png" class="img-fluid" alt="">
+                                <div class="ms-3">
+                                    <h3>Munim Chowdhury</h3>
+                                    <small>Web Developer</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-12">
+                    <div class="card p-4">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <img src="./images/comma.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="text-golden">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                            </div>
+                            <p class="card-text my-2">This was my first course in the field of innovation and I loved
+                                it. With it I can now understand how new technologies are thought, planned, developed
+                                and implemented in the market and the tools used to understand and react to new trends
+                                influencing economy. My background is biology and I could follow all the course contents
+                                and assignments well. </p>
+                            <div class="d-flex">
+                                <img src="./images/student/student-6.png" class="img-fluid" alt="">
+                                <div class="ms-3">
+                                    <h3>Syeda Ruma</h3>
+                                    <small>DNA Technologist</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Some Students Feedback -->
+
+        <!-- Title header Section -->
+        <section class="container my-5" id="faq">
+            <div class="text-center">
+                <h1 class="fw-bolder">Frequently Asked Questions</h1>
+                <p>
+                    Below you'll get some of the frequently asked questions, also the answers are included with the
+                    corresponding questions.
+                </p>
+            </div>
+        </section>
+        <!-- Title header Section -->
+        <section class="container">
+            <div class="mx-lg-5 px-lg-5">
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                aria-controls="panelsStayOpen-collapseOne">
+                                What is the CSS Box model?
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                            aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="accordion-body">
+                                <strong>The CSS Box Model is the primary means of layout for everything on the web. It
+                                    is a standard created by the World Wide Web Consortium which describes layout as
+                                    rectangular boxes in html which surround every single element on a web page or in
+                                    the document tree.</strong>Using the box model, web designers and developers can
+                                make use of various properties such as padding, borders, margin-top, margin-right,
+                                margin-bottom, margin-left, and many others to create page layouts.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseTwo">
+                                What is the difference between Bootstrap and Tailwind?
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body">
+                                <strong>The main difference between TailwindCSS and Bootstrap is that Tailwind CSS is
+                                    not a UI kit. Unlike UI kits such as Bootstrap, Bulma, and Foundation, Tailwind CSS
+                                    doesn't have a default theme or built-in UI components. Instead, it comes with
+                                    predesigned widgets you can use to build your site from scratch.</strong> I think
+                                bootstrap is much more
+                                beginner friendly and the tailwind offers much more flexibity in the design.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseThree">
+                                Difference between Flexbox and Grid.
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body">
+                                <strong>Grid and flexbox.</strong>The basic difference between CSS Grid Layout and CSS
+                                Flexbox Layout is that flexbox was designed for layout in one dimension - either a row
+                                or a column. Grid was designed for two-dimensional layout - rows, and columns at the
+                                same time.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseFour">
+                                What is Semantic tag?
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingFour">
+                            <div class="accordion-body">
+                                <strong>A semantic element clearly describes its meaning to both the browser and the
+                                    developer.</strong>Semantic tags clearly define the purpose of the HTML element. It
+                                also describes the type of content that the element should contain.Semantic tags also
+                                help search engines to parse the webpage correctly and find accurate information. Thus,
+                                helping search engines to correctly index the page.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FAQ Accordion  -->
+
+
+        <!-- Trusted Companies Section -->
+        <section class="container d-none d-md-none d-lg-block my-5">
+            <h1 class="text-center fw-bolder">
+                Trusted by over 800+ companies
+            </h1>
+            <div class="text-center mt-5 d-flex justify-content-between">
+                <img src="./images/company/company-1.png" alt="">
+                <img src="./images/company/company-2.png" alt="">
+                <img src="./images/company/company-3.png" alt="">
+                <img src="./images/company/company-4.png" alt="">
+                <img src="./images/company/company-5.png" alt="">
+                <img src="./images/company/company-6.png" alt="">
+            </div>
+        </section>
+        <!-- Trusted Companies Section -->
+
+        <!-- Footer Section -->
+        <footer class="container-fluid p-5 mt-5 bg-dark">
+            <section class="text-light p-5 text-center">
+                <i class="fa-solid fa-book-open-reader"></i>
+                <br>
+                <h2>Tech-BD.com</h2><br>
+                <p>
+                    <small>
+                        Office 41, Zawaya Buildin, Ghala Muscat,
+                        Sultanate of Oman
+                    </small>
+                </p>
+                <p>
+                    <small>
+                        Privacy Policy | Terms of use
+                    </small>
+                </p>
+                <a href="https://www.facebook.com/" target="_blank" class="me-3 text-light fs-4"><i
+                        class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/" target="_blank" class="me-3 text-light fs-4"><i
+                        class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/?hl=en" target="_blank" class="me-3 text-light fs-4"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.youtube.com/" target="_blank" class="text-light fs-4"><i
+                        class="fa-brands fa-youtube"></i></a>
+            </section>
+        </footer>
+        <!-- Footer Section -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
